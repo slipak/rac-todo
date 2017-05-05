@@ -1,0 +1,25 @@
+.header {
+  padding: 30px 0;
+  @include clearfix;
+  &__user {
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    padding-right: 30px;
+    &-media {
+      float: left;
+      padding-right: 10px;
+    }
+    &-content {
+      overflow: hidden;
+    }
+    &-email {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+  }
+  &__controls {
+    float: right;
+    width: 35%;
+  }
+}
